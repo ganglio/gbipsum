@@ -4,7 +4,8 @@
   "description": "Ghostbusters Ipsum",
   "main": "lib/gbipsum.js",
   "scripts": {
-    "test": "vows test/*.js --spec --isolate"
+    "test": "vows test/*.js --spec --isolate",
+    "start": "node ./lib/web"
   },
   "bin": {
     "gbipsum": "./bin/gbipsum"
