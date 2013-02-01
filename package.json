@@ -1,6 +1,6 @@
 {
   "name": "gbipsum",
-  "version": "0.0.7",
+  "version": "0.0.1",
   "description": "Ghostbusters Ipsum",
   "main": "lib/gbipsum.js",
   "scripts": {
@@ -27,7 +27,10 @@
     "vows": "0.5.x"
   },
   "engines": {
-    "node": ">=0.8",
-    "express": ">=3.0.0"
+    "node": ">=0.8"
+  },
+  "dependencies" : {
+    "express": ">=3.0.0",
+    "commander": "*"
   }
 }
