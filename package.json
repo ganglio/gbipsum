@@ -1,0 +1,33 @@
+{
+  "name": "gbipsum",
+  "version": "0.0.7",
+  "description": "Ghostbusters Ipsum",
+  "main": "lib/gbipsum.js",
+  "scripts": {
+    "test": "vows test/*.js --spec --isolate"
+  },
+  "bin": {
+    "gbipsum": "./bin/gbipsum"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ganglio/gbipsum.git"
+  },
+  "keywords": [
+    "ghostbuster",
+    "lorem",
+    "ipsum"
+  ],
+  "author": {
+    "name":"Roberto Torella",
+    "email":"roberto.torella@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vows": "0.5.x"
+  },
+  "engines": {
+    "node": ">=0.8",
+    "express": ">=3.0.0"
+  }
+}
