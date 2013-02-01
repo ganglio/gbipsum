@@ -1,0 +1,44 @@
+doctype 5
+body
+	head
+		title Ghostbusters Ipsum - I ain't afraid of no Lorem Ipsum
+		block scripts
+	body
+		header
+			h1 Ghostbusters Ipsum
+			h2 I ain't afraid of no Lorem Ipsum
+			hr
+		section.main
+			img(src='/images/logo.png')
+			div.description
+				h3 This is my last toy
+				p
+					| Ghostbusters Ipsum is a node.js module as well as
+					| a JQuery plugin to generate sample text based on the
+					| Ghostbusters script
+				a.button(href='https://github.com/ganglio/gbipsum') Fork me on GitHub
+			div.demo
+				p
+					| Why dont you give it a try?
+				form#demo
+					label
+						| Generate
+						input(type='text', value='5', name='length')
+					select(name='type', value='sentences')
+						option(value='words') Words
+						option(value='sentences') Sentences
+						option(value='Paragraphs') Paragraphs
+					label
+						| Wrapped with
+						input(type='text', value='p', name='wrap')
+					input(type='button', value='Go!')
+				div#out
+		footer
+			div.legal
+				p
+					| Ghostbuster is a copyright of Sony Pictures Digital Inc and used here as part of
+					em Fair Use
+					&copy; 2013 Roberto Torella
+
+
+
